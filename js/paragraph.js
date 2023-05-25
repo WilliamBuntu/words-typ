@@ -1,0 +1,1 @@
+const paragraphs = ["Lorem ipsum dolor sit amet, consectetur adipisicing elit.Consequatur voluptas eius doloribus quas asapiente magni! Amet rerum sequi tempore voluptate pariatur consectetur maxime, reiciendis eligendi ad quo enim "]
