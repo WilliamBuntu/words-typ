@@ -17,7 +17,8 @@ function initTyping() {
     const characters = typingText.querySelectorAll("span")
     let typedChar = inputField.value.split(" ")[charIndex]
     // console.log(typedChar)
-    if (typedChar == null){
+    //typer
+    if (typedChar === null){
         charIndex--;
          characters[charIndex].classList.remove("correct","incorrect")
 
@@ -26,7 +27,8 @@ function initTyping() {
         characters[charIndex].classList.add("correct")
     }else{
         characters[charIndex].classList.add("incorrect")
-    } 
+        
+    }
     charIndex ++;
     }
 
