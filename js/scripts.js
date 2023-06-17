@@ -17,8 +17,7 @@ function randomParagraph() {
 function initTyping() {
     const characters = typingText.querySelectorAll("span")
     let typedChar = inputField.value.split(" ")[charIndex]
-    // console.log(typedChar)
-    //typer
+    // console.log(typed
     if (typedChar == null){
         charIndex--;
 
